@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.navigation.NavigationView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="left"
+    android:background="@color/white"
+    android:fitsSystemWindows="true"
+    android:layoutDirection="ltr"
+    android:textDirection="ltr">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/top_of_nav"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:background="@color/white"
+            android:paddingBottom="10dp">
+
+            <ImageView
+                android:id="@+id/profile_picture_nav"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/donation" />
+
+            <TextView
+                android:id="@+id/user_name_nav"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/profile_picture_nav"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/et_margin_vertical"
+                android:text="Welcome User Name"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="19sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/my_profile_nav"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:drawablePadding="15dp"
+                    android:padding="@dimen/nav_item_drawable_padding"
+                    android:text="My Profile"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/nav_item_font_size"
+                    android:textStyle="bold"
+                    app:drawableRightCompat="@drawable/ic_baseline_arrow_forward_ios_24" />
+
+
+                <TextView
+                    android:id="@+id/donations_nav"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:drawablePadding="15dp"
+                    android:padding="@dimen/nav_item_drawable_padding"
+                    android:text="Donations"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/nav_item_font_size"
+                    android:textStyle="bold"
+                    app:drawableRightCompat="@drawable/ic_baseline_arrow_forward_ios_24" />
+
+                <TextView
+                    android:id="@+id/search_donations_nav"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:drawablePadding="15dp"
+                    android:padding="@dimen/nav_item_drawable_padding"
+                    android:text="Search Donations"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/nav_item_font_size"
+                    android:textStyle="bold"
+                    android:visibility="gone"
+                    app:drawableRightCompat="@drawable/ic_baseline_arrow_forward_ios_24" />
+
+                <TextView
+                    android:id="@+id/contact_us_nav"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:drawablePadding="15dp"
+                    android:padding="@dimen/nav_item_drawable_padding"
+                    android:text="Contact Us"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/nav_item_font_size"
+                    android:textStyle="bold"
+                    app:drawableRightCompat="@drawable/ic_baseline_arrow_forward_ios_24" />
+
+                <TextView
+                    android:id="@+id/log_out_nav"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:drawablePadding="15dp"
+                    android:padding="@dimen/nav_item_drawable_padding"
+                    android:text="Log Out"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/nav_item_font_size"
+                    android:textStyle="bold"
+                    app:drawableEndCompat="@drawable/ic_baseline_arrow_forward_ios_24" />
+
+            </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+    </LinearLayout>
+
+
+</com.google.android.material.navigation.NavigationView>

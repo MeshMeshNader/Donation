@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Nav fonts Sizes-->
+    <dimen name="nav_item_font_size">20sp</dimen>
+    <dimen name="nav_item_drawable_padding">12dp</dimen>
+
+    <!-- Tool bar Title Sizes -->
+    <dimen name="toolbar_title_font_size">23sp</dimen>
+
+    <!-- Menu Sizes-->
+    <dimen name="menu_item_title_size">20sp</dimen>
+    <dimen name="menu_small_item_width">115dp</dimen>
+    <dimen name="menu_small_item_height">115dp</dimen>
+    <dimen name="menu_small_icon_width">60dp</dimen>
+    <dimen name="menu_small_icon_height">60dp</dimen>
+    <dimen name="menu_small_icon_margin_bottom">15dp</dimen>
+    <dimen name="menu_small_item_text_margin_bottom">18dp</dimen>
+    <dimen name="circle_size">90dp</dimen>
+
+
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Donation</string>
+    <string name="admin_id">gWMe5o85DbghpyvXEn0Tm38XXPP2</string>
+    <string name="donations_ref">AllDonations</string>
+    <string name="wait">Waiting</string>
+    <string name="accepted">Accepted</string>
+    <string name="declined">Declined</string>
+    <string name="contact_us_hint">Type your message here and it well be send to the Admin</string>
+</resources>
